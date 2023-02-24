@@ -14,7 +14,7 @@ Music and Other Apps in a FaceTime Call with SharePlay, Screen Sharing, Portrait
       <p>Rs.1,49,000.00</p>
       <p>[STOCK LEFT: 500]</p>
       <input style={{margin:"0px 10px 0px 0px",width:"35px",border:"3px"}}type={"number"}/>
-      <Button style={{height:"35px",background:"black",color:"white",borderRadius:"3px"}} variant="dark">
+      <Button style={{height:"35px",background:"black",color:"white",borderRadius:"3px"}}variant="dark">
           BUY NOW
         </Button>{' '}
     </div>
