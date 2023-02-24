@@ -1,13 +1,24 @@
-// import logo from './logo.svg';
 import './App.css';
-import LoginPage from './components/LoginPage';
-
-function App() {
+import Form from "./components/Form"
+ 
+const App = () => {
   return (
     <>
-      <LoginPage />
+     <div className='d1'>
+      <h1>
+        ShopC
+      </h1>
+      <p id ="cap">A place where you meet your expectations</p>
+     </div>
+      
+      <div className="App">
+        <Form />
+      </div>
+  
+       
     </>
+
   );
 }
-
+ 
 export default App;
