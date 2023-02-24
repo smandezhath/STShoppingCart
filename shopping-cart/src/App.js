@@ -8,14 +8,22 @@ import AdminPanel from './components/AdminPanel';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HomePage></HomePage>}/>  
-      <Route path="/admin" element={<AdminPanel></AdminPanel>}/>
-      <Route path="/product" element={<ProductPage/>}/>
-    </Routes>
-    </BrowserRouter>
+    <>
+     <div className='d1'>
+      <h1>
+        ShopC
+      </h1>
+      <p id ="cap">A place where you meet your expectations</p>
+     </div>
+      
+      <div className="App">
+        <Form />
+      </div>
+  
+       
+    </>
+
   );
 }
-
+ 
 export default App;
