@@ -45,8 +45,8 @@ h1{
 
 #cap{
   font-size: 14px;
-  font-weight: 500;
-  margin: 20px 10px 10px 10px;
+  font-weight: bold;
+  margin: 23px 10px 10px 8px;
   font-family: monospace;
 
 }
@@ -54,13 +54,14 @@ h1{
 .d1{
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 h2 {
   font-weight: 500;
   font-size: 40px;
   text-align: center;
-  margin: 10px 100px 50px 70px;
+  margin: 10px 100px 10px 70px;
   color: #ddd;
 }
 
@@ -70,7 +71,12 @@ form {
   border: 1px solid #ddd;
   border-radius: 2px;
   padding: 2rem;
-  margin: 30px 100px 150px 600px;
+  margin: 30px 100px 10px 600px;
+}
+
+label{
+  color: #000000;
+  font-weight: 100px;
 }
 
 form label {
@@ -113,6 +119,18 @@ footer p {
   font-size: .9rem
 }
 
-.m-5-auto {
+.d2 {
   background-color: #13121f;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+#sign{
+  color: #ddd;
+  margin: 10px 100px 10px 675px;
+}
+
+#bac {
+  color: #ddd;
+  margin: 0px 100px 10px 690px;
 }

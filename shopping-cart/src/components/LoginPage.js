@@ -26,7 +26,7 @@ const LoginPage = () => {
             </h1>
             <p id="cap">A place where you meet your expectations</p>
         </div>
-        <div className="text-center m-5-auto" >
+        <div className="text-center d2" >
             <h2>Sign in</h2>
             <form action="/home">
                 <p>
@@ -42,10 +42,10 @@ const LoginPage = () => {
                     <button id="sub_btn" type="submit" onSubmit={handleSubmit}>Login</button>
                 </p>
             </form>
-            {/* <footer>
-                <p>First time? <Link to="/register">Create an account</Link>.</p>
-                <p><Link to="/">Back to Homepage</Link>.</p>
-            </footer> */}
+
+                <p id="sign">First time? Signup Here</p>
+                {/* <p id="bac">Back to Homepage</p> */}
+            
         </div>
         </>
     )
