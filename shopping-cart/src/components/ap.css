@@ -1,0 +1,36 @@
+.form-horizontal{
+    background-color: #13121f;
+    color: rgb(216, 245, 245);
+}
+h3{
+    align-self: center;
+    color: rgb(164, 240, 240);
+}
+h1{
+    text-align:center;
+}
+.c1
+{
+    background-color:#010b11;
+     
+    padding: 20px;
+    margin: auto;
+   
+    border: 1px solid rgb(26, 34, 30);
+    /* width: 3200px; */
+    border-radius: 5px;
+   font-Weight:bolder;
+   font-Size:32px;
+}
+.form-group
+{
+    color: #e4e3ee;
+}
+#singlebutton{
+    color: #e7e6ee;
+    align-self: right;
+    background-color: #594ce9;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+}
